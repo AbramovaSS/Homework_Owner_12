@@ -17,7 +17,7 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-        baseUrl = "https://github.com";
+        baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browser = webConfig.getBrowserName();
         Configuration.browserVersion = webConfig.getBrowserVersion();
