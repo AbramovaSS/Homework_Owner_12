@@ -3,9 +3,10 @@ package config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:local.properties",
-        "classpath:${env}..properties"
+        "classpath:${env}.properties",
+        "classpath:local.properties"
 })
+
 public interface WebConfig extends Config {
 
     @Key("browserName")
