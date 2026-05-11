@@ -12,7 +12,7 @@ public class WebSteps {
 
     @Step("Перейти на главную страницу веб-сервиса GitHub")
     public void openMainPage() {
-        open("https://github.com");
+        open();
     }
 
     @Step("Найти репозиторий {repo}")
